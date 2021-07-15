@@ -16,6 +16,7 @@ default: &default
   username: ikuya
   password: Nhy&7ujm
   socket: /var/run/mysqld/mysqld.sock
+  host: localhost
 
 development:
   <<: *default
